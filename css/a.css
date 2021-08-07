@@ -1,0 +1,27 @@
+
+
+header{
+    background-image: url(img/1.jpg)no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
+    height: 747px;
+}
+.top-nav-collapse{
+    background-color: #23355C;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.fa-1x {
+    font-size: 1.5rem;
+    }
